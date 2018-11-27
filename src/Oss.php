@@ -34,7 +34,7 @@ class Oss
         $this->_ossClient = new OssClient(
             $ossConfig['accessKeyId'],
             $ossConfig['accessKeySecret'],
-            $ossConfig['wanDomain']
+            $ossConfig['endPoint']
         );
         if ($this->_ossClient == false) {
             throw new \Exception("无法链接");
