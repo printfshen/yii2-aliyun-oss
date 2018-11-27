@@ -6,7 +6,7 @@
  * Time: 10:08
  */
 
-namespace sfs\yii2AliyunOss;
+namespace printfshen\yii2AliyunOss;
 
 
 use OSS\OssClient;

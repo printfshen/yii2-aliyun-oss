@@ -1,5 +1,5 @@
 {
-    "name": "sfs/yii2-aliyun-oss",
+    "name": "printfshen/yii2-aliyun-oss",
 
     "type": "yii2-extension",
 
@@ -20,7 +20,7 @@
 
     "autoload": {
         "psr-4": {
-            "sfs\\yii2AliyunOss\\": "src/"
+            "printfshen\\yii2AliyunOss\\": "src/"
         }
     }
 }
