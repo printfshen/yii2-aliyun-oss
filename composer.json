@@ -1,0 +1,26 @@
+{
+    "name": "sfs/yii2-aliyun-oss",
+
+    "type": "yii2-extension",
+
+    "description": "The aliyun-oss for the Yii framework",
+    "keywords": ["yii2","extension","AliyunOSS","OSS"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shenfengshan",
+            "email": "564435314@qq.com"
+        }
+    ],
+
+    "require": {
+        "yiisoft/yii2": "*",
+        "aliyuncs/oss-sdk-php": ">2.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "sfs\\yii2AliyunOss\\": "src/"
+        }
+    }
+}
