@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: sfs
- * Date: 2018/11/27
- * Time: 10:08
- */
 
 namespace printfshen\yii2AliyunOss;
 
@@ -69,6 +63,9 @@ class Oss
      */
     public function doesFileExist($path)
     {
+        if (empty($path)) {
+            return false;
+        }
         return $this->_ossClient->doesObjectExist($this->bucket, $path);
     }
 
