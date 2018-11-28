@@ -11,13 +11,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-
+        composer require printfshen/yii2-aliyun-oss
 ```
 
 or add
 
 ```
-
+        "printfshen/yii2-aliyun-oss": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
