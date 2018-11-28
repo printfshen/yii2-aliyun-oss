@@ -38,7 +38,7 @@ Usage
 ```
 用法  :
 ```php
-        $oss = Oss::getInstance();
+ 初始化 $oss = Oss::getInstance();
  上传   $oss->uploadFile($fileName, $filePath);
  删除   $oss->deleteFile($path);
  查看是否存在 $oss->doesFileExist($path);
